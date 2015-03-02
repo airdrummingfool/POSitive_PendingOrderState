@@ -1,0 +1,26 @@
+{
+    "name": "positive/pending-order-state",
+    "description": "Adds a 'pending' order state for use with POSitive Commerce.",
+    "type": "magento-module",
+    "license": "AFL-3.0",
+    "authors": [
+        {
+            "name": "POSitive Software Company",
+            "email": "support@positivecommerce.com"
+        },
+        {
+            "name": "Tommy Goode",
+            "email": "tommy@irdequipment.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra":{
+        "map":[
+            ["app/code/community/POSitive/PendingOrderState/", "app/code/community/POSitive/PendingOrderState/"],
+            ["app/etc/modules/POSitive_PendingOrderState.xml", "app/etc/modules/POSitive_PendingOrderState.xml"]
+        ]
+    }
+}
+
